@@ -1,2 +1,2 @@
 # Python-Theory
-This repository contains Theory of Python Language.
+This Repository contains Theory of Python Language.
