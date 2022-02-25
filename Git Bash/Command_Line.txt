@@ -1,0 +1,120 @@
+pwd 
+---
+  (Print Working Directory)
+  -> Prints the Location of Directory (Folder) you are in.
+---
+
+ls
+---
+  (List)
+  -> Prints the List of Files and Folders present in the Directory you are in.
+---
+
+clear
+---
+  -> To clear the pallete/screen.
+---
+
+cd
+---
+  (Change Directory)
+  -> To move to a Drive or Folder.
+  Syntax : 
+          1.For moving into a Drive
+            cd nameOfDrive://
+
+          2.For moving into a Folder 
+            (a) Folder name without Spaces
+                cd nameOfFolder  
+
+            (b) Folder name with Spaces
+                cd "Name of Folder"
+---
+
+mkdir
+---
+  (Make Directory)
+  -> To create a Directory (Folder).
+  Syntax : 
+          1.Folder Name with Spaces
+            mkdir "Name of Folder"
+
+          2.Folder Name With Underscores
+            mkdir Name_of_Folder
+
+          3.Multiple Folders
+            mkdir Folder1 Folder2 Folder3  
+---
+
+touch
+---
+  -> To create a File.
+  Syntax :
+          touch nameOfFile.extension
+---
+
+---
+  -> To go back in Previous Folder.
+  Syntax :
+          cd ..
+---
+
+rm
+---
+  (Remove)
+  -> To Remove a File.
+  Syntax :
+          rm nameOfFile.extension
+---
+
+rf
+---
+  (Recursive Force)
+  -> To Remove a Folder.
+  Syntax :
+          1.Folder name without Spaces
+            rm -rf nameOfFolder  
+
+          2.Folder name with Spaces
+            rm -rf "Name of Folder"
+---
+
+code
+---
+  -> To Code in a File.
+  Syntax :
+          code nameOfFile.extension
+---
+
+mv
+---
+  (Move)
+  -> To Rename a File.
+  Syntax :
+          mv oldName.extension newName.extension
+
+  -> To Move a File in different Folder.
+  Syntax :
+          mv File.extension ./Folder
+
+  -> To Move a File in Previous Folder.
+  Syntax :
+          mv File.extension .. 
+---
+
+cp
+---
+  (Copy)
+  -> To Copy a File in a Folder.
+  Syntax :
+          cp File.extension ./Folder
+---
+
+---
+  -> To Run a File.
+  Syntax :
+          Language File.extension
+
+  -> To Run a Previously Ran File.
+  Press Up Arrow; the Syntax written previously will be there, then Press Enter.
+---
